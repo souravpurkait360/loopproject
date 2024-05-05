@@ -38,8 +38,8 @@ To install and run this project locally, follow these steps:
 - Enabled Progressive Web App (PWA) support ✨📱
 
 ## Scope of Improvements
-- [ ] Write Unit Test Cases with above 95% coverage
-- [ ] Cover tablets of different resolutions (IPad/Android) for better responsiveness
-- [ ] Add more animations and transitions
+- [ ] Write Unit Test Cases with above 95% coverage to ensure code quality and reliability 🧪 
+- [ ] Cover tablets of different resolutions (IPad/Android) for better responsiveness 📱
+- [ ] Add more animations and transitions to enhance user experience ✨🚀 
 
 Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out at (+919804194959). Happy coding! 😄
