@@ -13,7 +13,7 @@ const RightSideDrawer: React.FC = () => {
   const toggleDrawer = () => dispatch(toggleRightSideDrawer());
 
   return (
-      <RightDrawerWrapper isOpen={isDrawerOpen}>
+      <RightDrawerWrapper isOpen={isDrawerOpen} data-testid="rightsidepanel">
         <RightDrawerContainer>
           <RightDrawerNavRow>
             <RightDrawerNavRowLeft>

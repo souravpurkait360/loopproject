@@ -4,7 +4,7 @@ import { LeftPanelItem, LeftPanelWrapper } from "./styles"
 
 const LeftSidePanel = () => {
     return (
-        <LeftPanelWrapper>
+        <LeftPanelWrapper data-testid="leftsidepanel">
             <LeftPanelItem active>
                 <UserIcon />
                 Endorsements

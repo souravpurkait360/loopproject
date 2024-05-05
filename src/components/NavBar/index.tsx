@@ -9,15 +9,15 @@ const NavBar: React.FC = () => {
     const toggleDrawer = () => dispatch(toggleRightSideDrawer());
     const toggleLeftPanel = () => dispatch(toggleLeftSidePanel());
     return (
-        <NavbarWrapper>
+        <NavbarWrapper data-testid="NavBar">
         <LeftSection>
-            <Hamburger onClick={toggleLeftPanel}>&#9776;</Hamburger>
+            <Hamburger onClick={toggleLeftPanel} data-testid="hamburger">&#9776;</Hamburger>
             <div>
-                <LogoImage src="images/loop-logo.png" />
+                <LogoImage src="images/loop-logo.png" alt="Loop Logo" />
             </div>
         </LeftSection>
         <RightSection>
-            <AlertBox onClick={toggleDrawer}>
+            <AlertBox onClick={toggleDrawer} data-testid="alert-button">
                 Alerts
                 <AlertIcon />
             </AlertBox>
