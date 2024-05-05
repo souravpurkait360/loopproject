@@ -59,6 +59,7 @@ export const InsuranceOrgInfoDot = styled.div`
     height: 5px;
     width: 5px;
     background-color: #EEEEEE;
+    border-radius: 50%;
 `;
 
 export const InsuranceOrgInfoRightSection = styled.div`
