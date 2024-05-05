@@ -63,4 +63,7 @@ export const Label = styled.span<{active?: boolean}>`
     font-size: 0.75rem;
     font-weight: 400;
     color: ${({active}) => active ? 'var(--black)' : 'var(--black-2)'};
+    @media (max-width: 768px) {
+        font-weight: 500;
+    }
 `;
