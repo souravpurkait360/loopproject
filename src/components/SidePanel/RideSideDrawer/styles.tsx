@@ -72,7 +72,7 @@ export const RightDrawerInsuranceTitle = styled.div`
 `;
 export const RightDrawerInsuranceSubtitle = styled.div`
   font-size: 0.675rem;
-  font-weight: 300;
+  font-weight: 400;
 `;
 export const RightDrawerClaimInfo = styled.div`
   margin-top: 1rem;
@@ -90,7 +90,7 @@ export const RightDrawerClaimInfoTitle = styled.div`
 `
 export const RightDrawerClaimInfoDescription = styled.div`
   font-size: 0.675rem;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0.5rem;
 `
 export const RightDrawerClaimInfoButton = styled.div`

@@ -55,7 +55,7 @@ export const EndorsementDetailsCardRowMajor = styled.div`
     justify-content: space-between;
     font-size: 0.75rem;
     width: 100%;
-    font-weight: 300;
+    font-weight: 400;
 `
 export const EndorsementDetailsCardLine = styled.div`
     height: 1px;
@@ -68,14 +68,14 @@ export const EndorsementDetailsCardRowMinor = styled.div`
     align-items: center;
     justify-content: space-between;
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 400;
     width: 100%;
 `;
 export const H2 = styled.span`
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.125rem;
 `
 export const H3 = styled.span`
-    font-weight: 500;
+    font-weight: 600;
     font-size: 0.875rem;
 `
