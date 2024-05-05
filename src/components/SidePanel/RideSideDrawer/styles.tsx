@@ -31,7 +31,7 @@ export const RightDrawerNavRowLeft = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1rem;
+  font-size: 0.875rem;
 `;
 export const RightDrawerNavRowIconWrapper = styled.div`
   height: 40px;
@@ -43,7 +43,7 @@ export const RightDrawerNavRowIconWrapper = styled.div`
   background-color: var(--yellow);
 `
 export const RightDrawerNavRowRight = styled.div`
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   cursor: pointer;
 `;
 export const RightDrawerContent = styled.div`
