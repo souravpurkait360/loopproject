@@ -61,9 +61,6 @@ export const StepperIconWrapper = styled.div<{active?: boolean}>`
 export const Label = styled.span<{active?: boolean}>`
     margin-top: 16px;
     font-size: 0.75rem;
-    font-weight: 400;
+    font-weight: 500;
     color: ${({active}) => active ? 'var(--black)' : 'var(--black-2)'};
-    @media (max-width: 768px) {
-        font-weight: 500;
-    }
 `;
