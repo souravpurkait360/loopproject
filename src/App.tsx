@@ -14,7 +14,6 @@ const Container = styled.div`
 
 const MainBody = styled.div`
   grid-column: 2;
-  padding: 0px 40px;
 `;
 
 const Overlay = styled.div<{ isOpen: boolean }>`
@@ -35,7 +34,7 @@ const RightDrawerButton = styled.button`
   color: #fff;
   border: none;
   padding: 10px;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   z-index: 101;
 `;

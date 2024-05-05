@@ -13,13 +13,14 @@ export const LeftPanelWrapper = styled.div`
 export const LeftPanelItem = styled.div<{active: boolean}>`
   display: flex;
   align-items: center;
+  margin-top: 10px;
   gap: 10px;
   background-color: ${({ active }) => (active ? 'var(--light-teal)' : 'transparent')};
   border-left: 5px solid ${({ active }) => (active ? 'white' : 'transparent')};
   padding: 10px;
   padding-left: 30px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 0.675rem;
   color:  ${({ active }) => (active ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0.5)')};
   svg {
     margin-right: 5px;

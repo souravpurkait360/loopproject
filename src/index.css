@@ -1,16 +1,28 @@
 :root {
   --red: #EB5757;
   --light-red: #FF8080;
+  --thin-red: #FFF2F2;
   --teal: #025F4C;
   --light-teal: #0D7963;
   --black: #595959;
-  --white: #F8F9FA;
+  --black-2: #7F8785;
+  --gray: #CBD6D3;
+  --gray-2: #EEEEEE;
+  --white: #FFFFFF;
+  --white-2: #F8F9FA;
+  --yellow: #FFD700;
+  --lavender: #A586EF;
+}
+
+html {
+  font-size: 20px;
 }
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 400;
   background-color: var(--white);
+  color: var(--black);
 }
 

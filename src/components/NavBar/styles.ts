@@ -33,7 +33,7 @@ export const Hamburger = styled.div`
   @media (max-width: 768px) {
     display: block;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
   }
 `;
@@ -53,6 +53,6 @@ export const AlertBox = styled.div`
     justify-content: center;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 0.675rem;
     gap: 6px;
 `;
