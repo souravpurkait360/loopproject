@@ -44,4 +44,6 @@ To install and run this project locally, follow these steps:
 - [ ] Cover tablets of different resolutions (IPad/Android) for better responsiveness 📱
 - [ ] Add more animations and transitions to enhance user experience ✨
 - [ ] Router for better navigation and user experience (Not included as there were no other pages) 🚀 
-Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out at 9804194959 or souravpurkait360@gmail.com 😄 Happy coding! 😄
+
+
+##### Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out at 9804194959 or souravpurkait360@gmail.com 😄 Happy coding! 😄
