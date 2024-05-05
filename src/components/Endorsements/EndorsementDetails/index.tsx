@@ -21,7 +21,7 @@ const EndorsementDetails = () => {
                     <EndorsementDetailsTitleIconWrapper>
                         <MoneyIcon />
                     </EndorsementDetailsTitleIconWrapper>
-                    <span>Endorsement Details</span>
+                    <span>Endorsement Cost</span>
                 </EndorsementDetailsTitle>
                 <EndorsementDetailsCard>
                     <EndorsementDetailsCardRowMajor>
