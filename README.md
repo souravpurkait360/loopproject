@@ -42,4 +42,4 @@ To install and run this project locally, follow these steps:
 - [ ] Cover tablets of different resolutions (IPad/Android) for better responsiveness
 - [ ] Add more animations and transitions
 
-Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out. Happy coding! 😄
+Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out at (+919804194959). Happy coding! 😄
