@@ -43,7 +43,7 @@ export const RightDrawerNavRowIconWrapper = styled.div`
   background-color: var(--yellow);
 `
 export const RightDrawerNavRowRight = styled.div`
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   cursor: pointer;
 `;
 export const RightDrawerContent = styled.div`
