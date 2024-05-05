@@ -11,7 +11,7 @@ export const MainBody = styled.div`
   grid-column: 2;
 `;
 
-export const Overlay = styled.div<{ isOpen: boolean }>`
+export const Overlay = styled.div<{ isOpen?: boolean }>`
   position: fixed;
   top: 0;
   left: 0;

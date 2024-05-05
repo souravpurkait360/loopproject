@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const RightDrawerWrapper = styled.div<{ isOpen: boolean }>`
+export const RightDrawerWrapper = styled.div<{ isOpen?: boolean }>`
   position: fixed;
   top: 0;
   right: ${({ isOpen }) => (isOpen ? '0' : '-25vw')};

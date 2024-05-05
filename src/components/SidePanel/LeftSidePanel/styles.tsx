@@ -10,7 +10,7 @@ export const LeftPanelWrapper = styled.div`
   padding-top: 20px;
 `;
 
-export const LeftPanelItem = styled.div<{active: boolean}>`
+export const LeftPanelItem = styled.div<{active?: boolean}>`
   display: flex;
   align-items: center;
   margin-top: 10px;
