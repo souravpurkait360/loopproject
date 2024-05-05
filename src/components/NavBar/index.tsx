@@ -2,15 +2,16 @@ import React from 'react';
 import { AlertBox, Hamburger, LeftSection, LogoImage, NavbarWrapper, RightSection } from './styles';
 import AlertIcon from '../../assets/icons/alert-icon';
 import { useDispatch } from 'react-redux';
-import { toggleRightSideDrawer } from '../../store/slices/drawerSlice';
+import { toggleLeftSidePanel, toggleRightSideDrawer } from '../../store/slices/drawerSlice';
 
 const NavBar: React.FC = () => {
     const dispatch = useDispatch();
     const toggleDrawer = () => dispatch(toggleRightSideDrawer());
+    const toggleLeftPanel = () => dispatch(toggleLeftSidePanel());
     return (
         <NavbarWrapper>
         <LeftSection>
-            <Hamburger>&#9776;</Hamburger>
+            <Hamburger onClick={toggleLeftPanel}>&#9776;</Hamburger>
             <div>
                 <LogoImage src="images/loop-logo.png" />
             </div>

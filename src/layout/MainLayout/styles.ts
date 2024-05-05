@@ -9,6 +9,9 @@ export const Container = styled.div`
 
 export const MainBody = styled.div`
   grid-column: 2;
+  @media (max-width: 768px) {
+    width: 100vw;
+  }
 `;
 
 export const Overlay = styled.div<{ isOpen?: boolean }>`

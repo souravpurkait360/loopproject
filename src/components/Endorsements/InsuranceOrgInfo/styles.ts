@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const InsuranceOrgInfoWrapper = styled.div`
     display: flex;
     height: 60px;
+    @media (max-width: 768px) {
+        height: fit-content;
+        flex-direction: column;
+    }
 `;
 
 export const InsuranceOrgInfoLeftSection = styled.div`
@@ -10,12 +14,18 @@ export const InsuranceOrgInfoLeftSection = styled.div`
     align-items: center;
     width: 70%;
     gap: 20px;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const InsuranceOrgInfoImage = styled.img`
     width: auto;
     height: 50px;
     border-radius: 5px;
+    @media (max-width: 768px) {
+        height: 60px;
+    }
 `;
 
 export const InsuranceOrgInfoNameDetails = styled.div`
@@ -23,6 +33,9 @@ export const InsuranceOrgInfoNameDetails = styled.div`
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    @media (max-width: 768px) {
+        gap: 5px;
+    }
 `;
 
 export const InsuranceOrgTitle = styled.div`
@@ -36,6 +49,10 @@ export const InsuranceOrgDetails = styled.div`
     display: flex;
     gap: 15px;
     align-items: center;
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
 `;
 
 export const InsuranceOrgInfoDot = styled.div`
@@ -49,6 +66,11 @@ export const InsuranceOrgInfoRightSection = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    @media (max-width: 768px) {
+        width: 100%;
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
 `;
 
 export const InsuranceOrgInfoDownloadButton = styled.button`
@@ -65,4 +87,7 @@ export const InsuranceOrgInfoDownloadButton = styled.button`
     gap: 10px;
     background-color: white;
     font-size: 0.75rem;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;

@@ -8,6 +8,13 @@ export const StepperContainer = styled.div`
     position: relative;
     width: 80%;
     margin-top: 5rem;
+    @media (max-width: 768px) {
+        width: 76%;
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 24%;
+    }
 `;
 
 export const Line = styled.div`
@@ -19,6 +26,12 @@ export const Line = styled.div`
     height: 1px;
     background-color: var(--gray);
     z-index: 1;
+    @media (max-width: 768px) {
+        height: 200px;
+        width: 1px;
+        left: 30%;
+        top: 35px;
+    }
 `;
 
 export const Step = styled.div`
@@ -28,6 +41,12 @@ export const Step = styled.div`
     justify-content: center;
     margin-top: 31px;
     z-index: 5;
+    @media (max-width: 768px) {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+    }
 `;
 export const StepperIconWrapper = styled.div<{active?: boolean}>`
     display: flex;

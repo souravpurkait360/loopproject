@@ -8,6 +8,11 @@ export const LeftPanelWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+  @media (max-width: 768px) {
+    width: 100vw;
+    max-width: 100vw;
+    transition: width 0.3s ease-in-out;
+  }
 `;
 
 export const LeftPanelItem = styled.div<{active?: boolean}>`

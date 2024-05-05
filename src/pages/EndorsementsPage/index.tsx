@@ -6,6 +6,9 @@ import EndorsementInfoLine from "../../components/Endorsements/EndorsementInfoLi
 
 const EndorsementsTopSection = styled.div`
     padding: 30px 60px;
+    @media (max-width: 768px) {
+        padding: 30px 20px;
+    }
 `;
 const EndorsementsBottomSection = styled(EndorsementsTopSection)`
     background-color: var(--white-2);

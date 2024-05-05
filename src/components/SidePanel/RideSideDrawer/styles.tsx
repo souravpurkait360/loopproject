@@ -10,6 +10,11 @@ export const RightDrawerWrapper = styled.div<{ isOpen?: boolean }>`
   background-color: var(--white);
   z-index: 100;
   transition: right 0.3s ease-in-out;
+  @media (max-width: 768px) {
+    width: 100vw;
+    right: ${({ isOpen }) => (isOpen ? '0' : '-100vw')};
+    transition: right 1s ease-in-out;
+  }
 `;
 
 export const RightDrawerContainer = styled.div``;
