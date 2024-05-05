@@ -37,7 +37,7 @@ To install and run this project locally, follow these steps:
 
 - Enabled Progressive Web App (PWA) support ✨📱
 - Setted up Unit Test Cases with Jest and React Testing Library 🧪
-- - Currently wrote test cases for only one component, can be extended to other components as well.
+    - Currently wrote test cases for only one component, can be extended to other components as well.
 
 ## Scope of Improvements
 - [ ] Write Unit Test Cases with above 95% coverage to ensure code quality and reliability 🧪 
