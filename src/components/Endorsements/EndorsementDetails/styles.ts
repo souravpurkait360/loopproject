@@ -57,6 +57,9 @@ export const EndorsementDetailsCardRowMajor = styled.div`
     font-size: 0.75rem;
     width: 100%;
     font-weight: 300;
+    @media (max-width: 768px) {
+        font-weight: 400;
+    }
 `
 export const EndorsementDetailsCardLine = styled.div`
     height: 1px;
