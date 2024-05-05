@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const RightDrawerWrapper = styled.div<{ isOpen?: boolean }>`
   position: fixed;
   top: 0;
-  right: ${({ isOpen }) => (isOpen ? '0' : '-25vw')};
+  right: ${({ isOpen }) => (isOpen ? '0' : '-30vw')};
   width: 30vw;
-  max-width: 460px;
+  max-width: 450px;
   height: 100%;
   background-color: var(--white);
   z-index: 100;
