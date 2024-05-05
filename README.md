@@ -37,4 +37,9 @@ To install and run this project locally, follow these steps:
 
 - Enabled Progressive Web App (PWA) support ✨📱
 
+## Scope of Improvement
+- [ ] Write Unit Test Cases
+- [ ] Cover tables of different resolutions for better responsiveness
+- [ ] Add more animations and transitions
+
 Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out. Happy coding! 😄
