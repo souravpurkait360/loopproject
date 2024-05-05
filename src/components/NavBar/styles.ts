@@ -66,6 +66,6 @@ export const AlertBox = styled.div`
     justify-content: center;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 0.675rem;
+    font-size: 0.5rem;
     gap: 6px;
 `;
