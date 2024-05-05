@@ -11,7 +11,16 @@ export const LeftPanelWrapper = styled.div`
   @media (max-width: 768px) {
     width: 100vw;
     max-width: 100vw;
-    transition: width 0.3s ease-in-out;
+    animation: slideIn 0.3s ease-in-out;
+  }
+
+  @keyframes slideIn {
+    from {
+      width: 0vw;
+    }
+    to {
+      width: 100vw;
+    }
   }
 `;
 

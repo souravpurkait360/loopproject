@@ -20,8 +20,27 @@ export const Overlay = styled.div<{ isOpen?: boolean }>`
   left: 0;
   width: ${({ isOpen }) => (isOpen ? '100%' : '0')};
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 99;
+  animation: ${({ isOpen }) => (isOpen ? 'fadeIn' : 'fadeOut')} 0.1s ease-in-out;
+
+  @keyframes fadeIn {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
 `;
 export const RightDrawerButton = styled.button`
   position: fixed;

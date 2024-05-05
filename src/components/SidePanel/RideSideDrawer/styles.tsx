@@ -13,7 +13,16 @@ export const RightDrawerWrapper = styled.div<{ isOpen?: boolean }>`
   @media (max-width: 768px) {
     width: 100vw;
     right: ${({ isOpen }) => (isOpen ? '0' : '-100vw')};
-    transition: right 1s ease-in-out;
+    animation: slideIn 0.3s ease-in-out;
+  }
+
+  @keyframes slideIn {
+    from {
+      width: 0vw;
+    }
+    to {
+      width: 100vw;
+    }
   }
 `;
 

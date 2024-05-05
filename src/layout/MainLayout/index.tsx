@@ -15,10 +15,10 @@ const MainLayout : React.FC<{children: React.ReactNode}> = ({ children }) => {
         return (
             <Container>
                 <NavBar />
-                {isLeftSidePanelOpen ? (
-                    <LeftSidePanel />
-                ) : isDrawerOpen ? (
+                {isDrawerOpen ? (
                     <RightSideDrawer />
+                ) : isLeftSidePanelOpen ? (
+                    <LeftSidePanel />
                 ) : (
                     <MainBody>
                         {children}
