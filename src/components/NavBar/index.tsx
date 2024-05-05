@@ -1,10 +1,14 @@
 import React from 'react';
 import { AlertBox, Hamburger, LeftSection, LogoImage, NavbarWrapper, RightSection } from './styles';
 import AlertIcon from '../../assets/icons/alert-icon';
+import { useDispatch } from 'react-redux';
+import { toggleRightSideDrawer } from '../../store/slices/drawerSlice';
 
 const NavBar: React.FC = () => {
-  return (
-      <NavbarWrapper>
+    const dispatch = useDispatch();
+    const toggleDrawer = () => dispatch(toggleRightSideDrawer());
+    return (
+        <NavbarWrapper>
         <LeftSection>
             <Hamburger>&#9776;</Hamburger>
             <div>
@@ -12,13 +16,13 @@ const NavBar: React.FC = () => {
             </div>
         </LeftSection>
         <RightSection>
-            <AlertBox>
+            <AlertBox onClick={toggleDrawer}>
                 Alerts
                 <AlertIcon />
             </AlertBox>
         </RightSection>
-      </NavbarWrapper>
-  );
+        </NavbarWrapper>
+    );
 };
 
 export default NavBar;

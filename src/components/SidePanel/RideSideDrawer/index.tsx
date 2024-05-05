@@ -3,13 +3,15 @@ import { RightDrawerClaimInfo, RightDrawerClaimInfoButton, RightDrawerClaimInfoD
 import CloseIcon from '../../../assets/icons/close-icon';
 import DangerIcon from '../../../assets/icons/danger-icon';
 import ChevronRight from '../../../assets/icons/chevron-right';
+import { toggleRightSideDrawer } from '../../../store/slices/drawerSlice';
+import { selectRightSideDrawerIsOpen } from '../../../store/selectors/drawerSelector';
+import { useSelector, useDispatch } from 'react-redux';
 
-interface RightSideDrawerProps {
-    isOpen: boolean;
-    toggleDrawer: () => void;
-}
+const RightSideDrawer: React.FC = () => {
+  const dispatch = useDispatch();
+  const isDrawerOpen = useSelector(selectRightSideDrawerIsOpen);
+  const toggleDrawer = () => dispatch(toggleRightSideDrawer());
 
-const RightSideDrawer: React.FC<RightSideDrawerProps> = ({isOpen: isDrawerOpen, toggleDrawer}: RightSideDrawerProps) => {
   return (
       <RightDrawerWrapper isOpen={isDrawerOpen}>
         <RightDrawerContainer>
