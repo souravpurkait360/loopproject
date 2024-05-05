@@ -18,23 +18,23 @@ To install and run this project locally, follow these steps:
 
 ## Project Includes all the expected results
 
-- Usage of React JS
-- Usage of Typescript
-- Usage of Redux where and if required
-- Do not use any styling library (Bootstrap, Tailwind etc)
-- You are free to use CSS/SCSS/JSS
-- Usage of CSS Grids or Flexboxes
-- Clean and reusable code
+- [x] Usage of React JS
+- [x] Usage of Typescript
+- [x] Usage of Redux where and if required
+- [x] Do not use any styling library (Bootstrap, Tailwind etc)
+- [x] You are free to use CSS/SCSS/JSS
+- [x] Usage of CSS Grids or Flexboxes
+- [x] Clean and reusable code
 
 ## Bonus Points Includes
 
-- Responsive Design for mobile and desktop
-- Initialized Theme Provider
-- Used StyledComponents 
-- Project is deployed on Netlify [https://loopproject.netlify.app](Demo).
+- [x] Responsive Design for mobile and desktop
+- [x] Initialized Theme Provider
+- [x] Used StyledComponents 
+- [x] Project is deployed on Netlify [Watch Demo](https://loopproject.netlify.app).
 
 ## Extra Bonus Work Done
 
-- Enabled Progressive Web App (PWA) support
+- Enabled Progressive Web App (PWA) support ✨📱
 
 Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out. Happy coding! 😄
