@@ -72,10 +72,10 @@ export const EndorsementDetailsCardRowMinor = styled.div`
     width: 100%;
 `;
 export const H2 = styled.span`
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.125rem;
 `
 export const H3 = styled.span`
-    font-weight: 600;
+    font-weight: 500;
     font-size: 0.875rem;
 `

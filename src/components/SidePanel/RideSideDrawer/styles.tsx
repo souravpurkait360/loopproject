@@ -4,8 +4,8 @@ export const RightDrawerWrapper = styled.div<{ isOpen?: boolean }>`
   position: fixed;
   top: 0;
   right: ${({ isOpen }) => (isOpen ? '0' : '-25vw')};
-  width: 25vw;
-  max-width: 450px;
+  width: 30vw;
+  max-width: 460px;
   height: 100%;
   background-color: var(--white);
   z-index: 100;
@@ -68,7 +68,7 @@ export const RightDrawerInsuranceDetails = styled.div`
 `
 export const RightDrawerInsuranceTitle = styled.div`
   font-size: 0.75rem;
-  font-weight: 400;
+  font-weight: 500;
 `;
 export const RightDrawerInsuranceSubtitle = styled.div`
   font-size: 0.675rem;
@@ -86,7 +86,7 @@ export const RightDrawerClaimInfo = styled.div`
 export const RightDrawerClaimInfoTitle = styled.div`
   color: var(--red);
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
 `
 export const RightDrawerClaimInfoDescription = styled.div`
   font-size: 0.675rem;
