@@ -10,10 +10,10 @@ This project is a web application built using React.js. It includes various feat
 
 To install and run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/loop-health-react.git`
-2. Navigate to the project directory: `cd loop-health-react`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
+1. Clone the repository: `git clone https://github.com/souravpurkait360/loopproject.git`
+2. Navigate to the project directory: `cd loopproject`
+3. Install the dependencies: `npm install` or `yarn install`
+4. Start the development server: `npm start` or `yarn start`
 5. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Project Includes all the expected results
@@ -40,6 +40,6 @@ To install and run this project locally, follow these steps:
 ## Scope of Improvements
 - [ ] Write Unit Test Cases with above 95% coverage to ensure code quality and reliability 🧪 
 - [ ] Cover tablets of different resolutions (IPad/Android) for better responsiveness 📱
-- [ ] Add more animations and transitions to enhance user experience ✨🚀 
-
-Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out at (+919804194959). Happy coding! 😄
+- [ ] Add more animations and transitions to enhance user experience ✨
+- [ ] Router for better navigation and user experience (Not included as there were no other pages) 🚀 
+Feel free to explore the project and make any modifications or improvements as needed. If you have any questions or need assistance, please don't hesitate to reach out at 9804194959 or souravpurkait360@gmail.com 😄 Happy coding! 😄
