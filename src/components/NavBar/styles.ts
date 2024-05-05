@@ -31,10 +31,11 @@ export const RightSection = styled.div`
     justify-content: flex-end;
     border-left: 1px solid rgba(0, 0, 0, 0.08);
     padding-left: 20px;
-    padding-right: 40px;
+    padding-right: 3rem;
     height: 100%;
     @media (max-width: 768px) {
         border-left: none;
+        padding-right: 20px;
     }
 `;
 
