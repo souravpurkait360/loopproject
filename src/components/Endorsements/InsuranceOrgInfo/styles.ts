@@ -40,18 +40,22 @@ export const InsuranceOrgInfoNameDetails = styled.div`
 
 export const InsuranceOrgTitle = styled.div`
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 400;
+    @media (max-width: 768px) {
+        font-weight: 500;
+    }
 `;
 
 export const InsuranceOrgDetails = styled.div`
     font-size: 0.75rem;
-    font-weight: 400;
+    font-weight: 300;
     display: flex;
     gap: 15px;
     align-items: center;
     @media (max-width: 768px) {
         flex-wrap: wrap;
         gap: 5px;
+        font-weight: 400;
     }
 `;
 
